@@ -3,3 +3,9 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+.header {
+  background-color: #FFDBAA;
+  font-size: 28px;
+  font: 'Helvetica';
+}
