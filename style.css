@@ -3,9 +3,50 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
 .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 140px;
   background-color: #FFDBAA;
-  font-size: 28px;
-  font: 'Helvetica';
+  color: #553100;
+  font-size: 21px;
+  font-family: Helvetica, Arial, sans-serif;
+  border-bottom: 0.1rem solid black;
+  padding: 10px;
+}
+
+.header-brown-button {
+  grid-column: 2;
+  font-size: 30px;
+  border: none;
+  background-color: #805215;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+}
+
+.body-info {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #D4A76A;
+  font-size: 19px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.short-box {
+  grid-row: 1;
+}
+
+.long-box {
+  grid-row: 2;
+}
+
+.brown-button {
+  font-size: 30px;
+  border: 0.1rem solid black;
+  background-color: #805215;
+  color: white;
+  padding: 15px;
+  margin: 10px;
 }
